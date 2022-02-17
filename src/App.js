@@ -1,9 +1,12 @@
 import React from "react";
+import './styles/App.css'
+import PostItem from "./components/PostItem";
 
 function App() {
-  return (
-      <div>
 
+  return (
+      <div className="App">
+        <PostItem post={{id: 1, title: 'Javascript', body: 'Description'}}/>
       </div>
   );
 }
