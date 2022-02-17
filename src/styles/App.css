@@ -21,3 +21,11 @@
   justify-content: space-between;
   align-items: center;
 }
+
+.post__list {
+  text-align: center;
+}
+
+.post__body {
+  margin-top: 10px;
+}
